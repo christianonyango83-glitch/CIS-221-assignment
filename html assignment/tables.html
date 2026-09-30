@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <title>Tables</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 60%;
+        }
+
+        table, th, td {
+            border: 2px solid black;
+        }
+
+        th {
+            background-color: lightblue;
+            color: black;
+        }
+
+        td {
+            background-color: lightyellow;
+            text-align: center;
+        }
+
+        caption {
+            color: darkblue;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <caption><b>Timetable</b></caption>
+
+        <tr>
+            <th scope="col">Day/Time</th>
+            <th>9am-10am</th>
+            <th>10am-11am</th>
+            <th>11am-12pm</th>
+            <th>12pm-1pm</th>
+        </tr>
+
+        <tr>
+            <th scope="row">Monday</th>
+            <td colspan="2">CIS 210</td>
+            <td>CIS 211</td>
+            <td>CIS 212</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Tuesday</th>
+            <td>CIS 122</td>
+            <td>CIS 133</td>
+            <td colspan="2">CIS 213</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Wednesday</th>
+            <td>CCS 227</td>
+            <td>CIM 217</td>
+            <td colspan="2">CIT 223</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Thursday</th>
+            <td>CIR 104</td>
+            <td colspan="3">CIT 112</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Friday</th>
+            <td colspan="2">CIM 234</td>
+            <td colspan="2">CIS 323</td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
+```
